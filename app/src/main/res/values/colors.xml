@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_purple">#B68FFA</color>
+    <color name="message_success">#2E7D32</color>
+    <color name="message_warning">#F9A825</color>
+    <color name="message_error">#C62828</color>
+    <color name="message_on_color">#FFFFFFFF</color>
+    <color name="message_on_warning">#FF1B1B1B</color>
+</resources>
