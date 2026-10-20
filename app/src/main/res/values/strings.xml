@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">ModdakirTask1</string>
     <string name="login">Login</string>
+    <string name="logout">Logout</string>
     <string name="enter_your_email">Enter your email</string>
     <string name="enter_your_password">Enter your password</string>
     <string name="continue_with_google">Continue with Google</string>
+    <string name="default_web_client_id">47769780164-uu2viuuui7bk2rbc66bgqcg9j0gpr1ek.apps.googleusercontent.com</string>
 </resources>

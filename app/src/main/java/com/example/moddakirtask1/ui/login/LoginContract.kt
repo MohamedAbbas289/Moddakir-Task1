@@ -1,6 +1,8 @@
 package com.example.moddakirtask1.ui.login
 
 import androidx.lifecycle.LiveData
+import com.example.domain.model.GoogleLoginRequest
+import com.example.domain.model.user.UserResponse
 import kotlinx.coroutines.flow.StateFlow
 
 class LoginContract {
@@ -19,9 +21,12 @@ class LoginContract {
 
     sealed class Action {
         data object Login : Action()
+        data object GoogleSignInClicked : Action()
+        data class GoogleLogin(val request: GoogleLoginRequest) : Action()
     }
 
     sealed class Event {
-        data object NavigateToHome : Event()
+        data object LaunchGoogleSignIn : Event()
+        class NavigateToHome(val user: UserResponse? = null) : Event()
     }
 }

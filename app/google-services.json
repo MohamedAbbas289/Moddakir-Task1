@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "47769780164",
+    "project_id": "moddakirtask1",
+    "storage_bucket": "moddakirtask1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47769780164:android:df87e6b85620885b0b2e91",
+        "android_client_info": {
+          "package_name": "com.example.moddakirtask1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47769780164-39mkrho43h8bbeok0hs8agolt8b9htpl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moddakirtask1",
+            "certificate_hash": "340b225d79dd2098419335bf5f02a11f1332d17c"
+          }
+        },
+        {
+          "client_id": "47769780164-uu2viuuui7bk2rbc66bgqcg9j0gpr1ek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvFXnYuiuy2dSCnmu9z-nW7rnET4n9hy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47769780164-uu2viuuui7bk2rbc66bgqcg9j0gpr1ek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -21,7 +21,7 @@ object ApiModule {
     @Singleton
     fun provideLoggingInterceptor(): HttpLoggingInterceptor {
         return HttpLoggingInterceptor().apply {
-            level = HttpLoggingInterceptor.Level.BASIC
+            level = HttpLoggingInterceptor.Level.BODY
             redactHeader("token")
             redactHeader("Authorization")
         }

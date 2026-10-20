@@ -5,4 +5,5 @@ plugins {
     alias(libs.plugins.hilt.android) apply false
     alias(libs.plugins.ksp) apply false
     id("org.jetbrains.kotlin.plugin.parcelize") version "2.2.10" apply false
+    alias(libs.plugins.google.gms.google.services) apply false
 }
